@@ -1,5 +1,5 @@
 <?php
-
+//untuk merender tampilan form member baik create atau update
   class MembersFormView {
     public function render($mode, $data=null){
       $form = null;

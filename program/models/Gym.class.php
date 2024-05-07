@@ -1,5 +1,6 @@
+<!-- Saya Muhammad Muhammad Fadlul Hafiizh [2209889] mengerjakan soal TP 4 dalam mata kuliah DPBO.
+untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan, Aamiin -->
 <?php
-
 class Gym extends DB{
     function getGym(){
         $query = "SELECT *, (SELECT COUNT(*) FROM members JOIN gym ON members.gym_id = gym.id) as total_member FROM gym";
